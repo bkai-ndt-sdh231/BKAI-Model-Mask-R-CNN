@@ -146,3 +146,12 @@ img = cv2.imread("test.jpg")
 outputs = predictor(img)
 
 print(outputs)
+
+@misc{bkai2025-crack-maskrcnn,
+  title  = {BKAI – Mask R-CNN + ResNet50 for Concrete Crack Detection & Segmentation},
+  author = {Nguyen Dat Thanh},
+  year   = {2025},
+  url    = {https://github.com/bkai-ndt-sdh231/BKAI-Model-Mask-R-CNN}
+}
+
+
