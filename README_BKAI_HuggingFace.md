@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/bkai-ndt-sdh231/.github/main/profile/BKAI_logo.png" width="180">
 </p>
 
-#BKAI – Mask R-CNN + ResNet50 for Concrete Crack Detection & Segmentation
+#  BKAI – Mask R-CNN + ResNet50 for Concrete Crack Detection & Segmentation
 
 Official repository for the BKAI deep-learning model used for **detecting and segmenting concrete cracks** using **Mask R‑CNN + ResNet50 + FPN**.  
 This model is part of the *BKAI Smart Infrastructure Initiative*.
@@ -82,10 +82,15 @@ print(outputs)
 ---
 
 ## 📸 Example Visualization
-```
-Input Image  →  Crack Mask  →  Final Overlay
-```
-*(Add images in HuggingFace UI if needed)*
+
+### Input Image
+![Input](https://huggingface.co/<username>/<model>/resolve/main/input.jpg)
+
+### Crack Mask
+![Mask](https://huggingface.co/<username>/<model>/resolve/main/mask.png)
+
+### Final Overlay
+![Overlay](https://huggingface.co/<username>/<model>/resolve/main/overlay.png)
 
 ---
 
