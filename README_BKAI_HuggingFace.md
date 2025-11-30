@@ -83,14 +83,39 @@ print(outputs)
 
 ## 📸 Example Visualization
 
-### Input Image
-![Input](https://huggingface.co/<username>/<model>/resolve/main/input.jpg)
+### Example 1
+**Input**
+![Input1](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example1_input.jpg)
 
-### Crack Mask
-![Mask](https://huggingface.co/<username>/<model>/resolve/main/mask.png)
+**Crack Mask**
+![Mask1](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example1_mask.png)
 
-### Final Overlay
-![Overlay](https://huggingface.co/<username>/<model>/resolve/main/overlay.png)
+**Final Overlay**
+![Overlay1](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example1_overlay.jpg)
+
+---
+
+### Example 2
+**Input**
+![Input2](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example2_input.jpg)
+
+**Crack Mask**
+![Mask2](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example2_mask.png)
+
+**Final Overlay**
+![Overlay2](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example2_overlay.jpg)
+
+---
+
+### Example 3
+**Input**
+![Input3](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example3_input.jpg)
+
+**Crack Mask**
+![Mask3](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example3_mask.png)
+
+**Final Overlay**
+![Overlay3](https://huggingface.co/bkai-ndt-sdh231/BKAI-MaskRCNN-ConcreteCrack/resolve/main/example3_overlay.jpg)
 
 ---
 
