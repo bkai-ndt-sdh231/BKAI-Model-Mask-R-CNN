@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/images/bkai_pipeline.png" width="1000">
-</p>
-
 <h1 align="center">BKAI – Mask R-CNN + ResNet50</h1>
 
 <p align="center">
@@ -20,130 +16,100 @@
 
 ## 🔥 Overview
 
-BKAI is a deep learning framework designed for **automatic concrete crack detection and instance segmentation** in civil infrastructure.
+BKAI is a deep learning framework for **automatic concrete crack detection and instance segmentation** in civil infrastructure.
 
-The model enables:
+Unlike conventional approaches, the model enables:
 
 - 🎯 Pixel-level crack segmentation  
 - 🔍 Instance-level crack separation  
 - 📏 Crack morphology analysis  
-- ⚡ High accuracy in real-world conditions  
+- ⚡ Robust performance in real-world environments  
 
 ---
 
-## 🧠 Computer Vision Tasks
+## 🧠 Methodology
 
-<p align="center">
-  <img src="assets/images/cv_tasks_overview.png" width="900">
-</p>
+The proposed system is built upon the **Mask R-CNN architecture with a ResNet-50 backbone and Feature Pyramid Network (FPN)**.
 
----
+The pipeline consists of:
 
-## 🧬 Model Evolution
-
-<p align="center">
-  <img src="assets/images/model_evolution_timeline.png" width="900">
-</p>
+1. Feature extraction using ResNet-50  
+2. Multi-scale feature representation via FPN  
+3. Region Proposal Network (RPN)  
+4. ROI Align for precise feature mapping  
+5. Multi-task prediction (classification, bounding box, mask)  
 
 ---
 
-## 🏗️ Mask R-CNN Architecture
-
-<p align="center">
-  <img src="assets/images/mask_rcnn_architecture.png" width="950">
-</p>
-
----
-
-## 🔍 Feature Pyramid Network
-
-<p align="center">
-  <img src="assets/images/fpn_structure.png" width="900">
-</p>
-
----
-
-## ⚙️ ROI Align
-
-<p align="center">
-  <img src="assets/images/roi_align.png" width="900">
-</p>
-
----
-
-## 🧱 Backbone (ResNet-50)
-
-<p align="center">
-  <img src="assets/images/resnet50_backbone.png" width="900">
-</p>
-
----
-
-## 📊 Dataset Analysis
-
-<p align="center">
-  <img src="assets/images/dataset_analysis.png" width="1000">
-</p>
+## 📊 Dataset
 
 - 24,000 training images  
 - 1,000 validation images  
-- Multi-scale crack distribution  
-- Real-world + augmented data  
+- Multi-source dataset (real + augmentation)  
+- Thin, elongated crack distribution  
 
 ---
 
-## 📉 Training Process
+## 📈 Performance
 
-<p align="center">
-  <img src="assets/images/training_loss.png" width="800">
-</p>
-
-<p align="center">
-  <img src="assets/images/loss_components.png" width="800">
-</p>
-
----
-
-## 📈 Evaluation
-
-<p align="center">
-  <img src="assets/images/map.png" width="600">
-</p>
-
-<p align="center">
-  <img src="assets/images/confusion_matrix.png" width="600">
-</p>
-
-<p align="center">
-  <img src="assets/images/pr_curve.png" width="600">
-</p>
-
-<p align="center">
-  <img src="assets/images/f1_curve.png" width="600">
-</p>
+| Metric        | Value |
+|--------------|------|
+| Precision    | 98.37% |
+| Recall       | 99.89% |
+| F1-score     | 99.13% |
+| AP50         | 82.89 |
+| AP75         | 72.04 |
+| mAP (0.5–0.95) | 63.99 |
 
 ---
 
-## 🖼️ Prediction Results
+## 🖼️ Visual Results
 
 <p align="center">
-  <img src="assets/images/prediction_results.png" width="1000">
+  <img src="assets/images/cv_tasks_overview.png" width="400">
+  <img src="assets/images/model_evolution_timeline.png" width="400">
 </p>
 
-✔ Instance segmentation  
-✔ Bounding box + mask  
-✔ Confidence score  
+<p align="center">
+  <img src="assets/images/mask_rcnn_architecture.png" width="400">
+  <img src="assets/images/fpn_structure.png" width="400">
+</p>
+
+<p align="center">
+  <img src="assets/images/roi_align.png" width="400">
+  <img src="assets/images/resnet50_backbone.png" width="400">
+</p>
+
+<p align="center">
+  <img src="assets/images/dataset_analysis.png" width="450">
+  <img src="assets/images/training_loss.png" width="450">
+</p>
+
+<p align="center">
+  <img src="assets/images/loss_components.png" width="400">
+  <img src="assets/images/map.png" width="400">
+</p>
+
+<p align="center">
+  <img src="assets/images/confusion_matrix.png" width="400">
+  <img src="assets/images/pr_curve.png" width="400">
+</p>
+
+<p align="center">
+  <img src="assets/images/f1_curve.png" width="400">
+  <img src="assets/images/prediction_results.png" width="400">
+</p>
 
 ---
 
 ## 🔥 Highlights
 
-- Mask R-CNN (Instance Segmentation)
-- ResNet-50 + FPN backbone
-- COCO evaluation metrics (mAP, AP50, AP75)
-- High precision (~99% F1-score)
-- Optimized for thin crack detection
-- Deployable via Streamlit
+- Instance segmentation (Mask R-CNN)  
+- COCO evaluation metrics  
+- High precision (~99% F1-score)  
+- Optimized for thin crack detection  
+- Real-world dataset  
+- Deployable via Streamlit  
 
 ---
 
