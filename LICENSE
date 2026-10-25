@@ -1,34 +1,185 @@
-MIT License
 
-Copyright (c) 2025 bkai-ndt-sdh231
+BKAI MASK R-CNN RESEARCH REPOSITORY
+COPYRIGHT AND USAGE NOTICE
+Version 2026
 
-MIT License (Modified for Academic and Research Use Only)
+Copyright (c) 2025–2026 Dat-Thanh Nguyen.
+All rights reserved, subject to applicable third-party rights,
+prior licenses, and publication agreements.
 
-Copyright (c) 2025 Nguyen Dat Thanh
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software, model, and associated documentation files (the "Software"),
-to use the Software for academic, educational, and research purposes only,
-subject to the following conditions:
+1. PROJECT INFORMATION
 
-1. The Software may NOT be used for commercial purposes, including but not 
-   limited to commercial applications, paid services, or any form of 
-   monetization, without prior written permission from the author.
+Project:
+BKAI – Concrete Crack Segmentation and
+Skeleton-Based Geometric Characterization
 
-2. The above copyright notice and this permission notice shall be included 
-   in all copies or substantial portions of the Software.
+Research publication:
+An integrated mask R-CNN framework for concrete crack
+segmentation and skeleton-based quantification in
+automated infrastructure inspection.
 
-3. Any publication, thesis, or research work that uses this Software must 
-   include appropriate citation to the following repository:
+Authors:
+Dat-Thanh Nguyen, Nhat-Quang Tran, Duc-Hoc Tran
 
-   Nguyen Dat Thanh (2025). 
-   BKAI – Concrete Crack Detection using Mask R-CNN + ResNet50.
-   GitHub: https://github.com/bkai-ndt-sdh231/BKAI-Model-Mask-R-CNN
+Journal:
+Journal of Building Pathology and Rehabilitation
+Volume 11, Article 228 (2026)
+Springer Nature
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
-THE SOFTWARE.
+DOI:
+https://doi.org/10.1007/s41024-026-00900-z
+
+Official research repository:
+https://github.com/bkai-ndt-sdh231/BKAI-Model-Mask-R-CNN
+
+
+2. PURPOSE OF THIS REPOSITORY
+
+This repository is maintained to introduce and document
+the BKAI Mask R-CNN research framework associated with
+the published scientific article.
+
+It may contain research descriptions, selected experimental
+results, figures, demonstrations, and supporting materials.
+
+The repository is intended to facilitate research visibility,
+academic reference, and technical understanding.
+
+The complete scientific methodology and experimental
+discussion are available through the official publication.
+
+
+3. COPYRIGHT AND PERMISSIONS
+
+Unless otherwise stated, original materials created and
+owned by Dat-Thanh Nguyen remain protected by copyright.
+
+No new license to reproduce, modify, redistribute, sublicense,
+commercialize, or incorporate such materials into other
+products or services is granted by this notice.
+
+Permission for uses requiring authorization should be
+requested from the relevant rights holder.
+
+This notice does not restrict uses permitted by applicable
+law or rights arising under GitHub's Terms of Service.
+
+
+4. ACADEMIC AND EDUCATIONAL USE
+
+Researchers, educators, and students may access and
+reference the publicly available repository for academic
+information and study, subject to applicable law and
+platform terms.
+
+Public visibility does not automatically authorize copying,
+redistributing, modifying, or republishing protected content.
+
+Where additional permission is required, users should
+contact the relevant rights holder before reuse.
+
+
+5. COMMERCIAL USE
+
+No commercial-use permission is granted by this notice.
+
+Commercial reuse, commercial redistribution, integration
+into paid services, or other commercial exploitation of
+protected original materials requires appropriate
+authorization, unless independently permitted by law
+or an existing applicable license.
+
+
+6. SCIENTIFIC CITATION
+
+When referring to the published research, users are
+requested to cite the original journal article:
+
+Nguyen, D.-T., Tran, N.-Q., and Tran, D.-H. (2026).
+
+An integrated mask R-CNN framework for concrete crack
+segmentation and skeleton-based quantification in
+automated infrastructure inspection.
+
+Journal of Building Pathology and Rehabilitation,
+11, Article 228.
+
+https://doi.org/10.1007/s41024-026-00900-z
+
+Citation is an academic attribution practice and does not,
+by itself, grant permission to reproduce or reuse materials.
+
+
+7. PUBLISHED ARTICLE AND FIGURE RIGHTS
+
+The published journal article is subject to its applicable
+Springer Nature publication agreement.
+
+Rights in the version of record, published figures,
+journal-formatted materials, and associated content
+must be determined from that agreement and any
+applicable third-party permissions.
+
+This repository notice does not override publisher rights
+or grant permissions that the repository maintainer
+does not possess.
+
+
+8. THIRD-PARTY MATERIALS
+
+Any third-party software, pretrained models, datasets,
+images, libraries, or other materials included in this
+repository remain subject to their respective licenses
+and usage conditions.
+
+This notice does not supersede those terms.
+
+Users are responsible for checking the applicable
+permissions before reuse.
+
+
+9. PREVIOUS LICENSES AND VERSIONS
+
+This notice applies prospectively to materials and rights
+that the repository maintainer is authorized to control.
+
+It does not revoke permissions already granted under
+valid prior licenses or agreements.
+
+Earlier repository versions may remain available through
+version history or existing copies and may be governed
+by different applicable terms.
+
+
+10. DISCLAIMER
+
+All materials are provided "AS IS", without warranties
+of any kind, to the extent permitted by applicable law.
+
+Research demonstrations and image-based crack measurements
+are not independently certified engineering inspection
+or structural safety assessments.
+
+Results and geometric measurements should be interpreted
+within the assumptions, validation scope, and limitations
+described in the published scientific article.
+
+
+11. CONTACT
+
+Dat-Thanh Nguyen
+Ho Chi Minh City University of Technology (HCMUT)
+Vietnam National University Ho Chi Minh City
+Vietnam
+
+Academic email:
+ndthanh.sdh231@hcmut.edu.vn
+
+Research repository:
+https://github.com/bkai-ndt-sdh231/BKAI-Model-Mask-R-CNN
+
+Publication:
+https://doi.org/10.1007/s41024-026-00900-z
+
+END OF NOTICE
